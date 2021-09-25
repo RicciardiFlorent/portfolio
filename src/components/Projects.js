@@ -16,7 +16,7 @@ const project2 = {
   description : "This site allows to share memories. Users can create an account, authenticate themselves, post photos, like and comment, filter searches for memories. It was developed with the MERN stack.",
   technologies : ["React","Redux", "MongoDB", "Express", "Node", "Tailwind CSS", "JWT"],
   githubLink : "https://github.com/RicciardiFlorent/linkedin-clone-react",
-  websiteLink : "https://linkedin-clone-c8607.web.app/"
+  websiteLink : ""
 }
 
 const project3 = {

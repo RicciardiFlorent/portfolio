@@ -46,10 +46,10 @@ function AboutMe() {
  
 
             </div>
-            <img alt="Me" src={photo} className="w-2/3 mx-auto sm:w-60 sm:h-60 md:w-80 md:h-80 md:ml-20 rounded-bl-3xl rounded-tr-3xl shadow-lg  transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl " alt="fireSpot"/>
+            <img alt="me" src={photo} className="w-2/3 mx-auto sm:w-60 sm:h-60 md:w-80 md:h-80 md:ml-20 rounded-bl-3xl rounded-tr-3xl shadow-lg  transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl " alt="fireSpot"/>
             
         </div>
-        <div className=" ml-4 text-gray-300 space-y-2">
+        <div className=" ml-4 mt-10 sm:mt-2 text-gray-300 space-y-2">
 
         <div className="flex text-sm"><p className="font-medium text-yellow-200 mr-2">Software programming:</p> <p>Java (Springboot), C, C++, Python, VB.NET</p></div>
         <div className="flex text-sm"><p className="font-medium text-yellow-200 mr-2">Web/Mobile programming:</p><p> JS, Angular, React, Node, PHP, Symfony, Kotlin</p></div>
