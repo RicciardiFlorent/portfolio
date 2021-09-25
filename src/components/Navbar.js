@@ -52,8 +52,8 @@ function Navbar() {
               >
                 Contact
               </a>
-              <a href="#"
-                 target="_blank"
+              <a href="https://drive.google.com/file/d/18tZfN038dEI3OHlhkuu3i5b08Oo7QAR7/view?usp=sharing"
+                 target="_blank" rel="noreferrer"
                 className="text-yellow-200 border-2 border-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2 text-sm font-medium"
               >
                 Resume
@@ -156,8 +156,8 @@ function Navbar() {
                 Contacts
               </a>
 
-              <a href="#"
-                 download
+              <a href="https://drive.google.com/file/d/18tZfN038dEI3OHlhkuu3i5b08Oo7QAR7/view?usp=sharing"
+                 target="_blank" rel="noreferrer"
                 className=" border-2 border-yellow-200 hover:bg-red-500 hover:bg-opacity-20  text-yellow-200 px-3 py-2  block text-base font-medium"
               >
                 Resume
