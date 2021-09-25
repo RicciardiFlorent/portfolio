@@ -7,11 +7,12 @@ function Work(props) {
             <div className="flex justify-start items-baseline space-x-2">
             <p className=" font-bold text-lg text-gray-100">{props.work.position}</p><p className="text-yellow-200 font-bold text-lg">@{props.work.company}</p>
             </div>
-            <p className="text-sm text-gray-100">{props.work.date}</p>
+            <p className="text-sm text-gray-100 ">{props.work.date}</p>
+            <p className="text-sm italic text-yellow-200 mb-10">{props.work.status}</p>
 
 
             {props.work.missions.map((item)=>{
-                    return <WorkMission  mission={item}/>
+                    return <WorkMission  item={item}/>
             })}
          
         </div>

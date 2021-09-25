@@ -46,7 +46,7 @@ function ItemProject(props) {
         </div>
         <div className="flex flex-col">
             <h3 className="ml-5 mt-8 font-black text-xl text-yellow-100">{props.project.title}</h3>
-            <p className="mx-2 text-justify text-gray-200">{props.project.description}</p>
+            <p className="mx-2 text-justify text-gray-200 mt-3">{props.project.description}</p>
 
             <div className="flex absolute bottom-0  font-thin text-gray-200 text-sm flex-wrap mx-2 text-justify mt-4 mb-4">
               {props.project.technologies.map((item) => {

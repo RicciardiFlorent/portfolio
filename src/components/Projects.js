@@ -5,46 +5,46 @@ import ItemProject from "./ItemProject";
 
 const project1 = {
   title : "Linkedin clone",
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis. Fusce non risus fringilla, efficitur neque eget, accumsan massa. Nulla et augue nec lorem imperdiet dignissim. Sed sed scelerisque libero. Nulla in lorem id quam elementum pulvinar. Proin finibus vel neque eu molestie.",
-  technologies : ["Next.js","Redux","Tailwind CSS", "Firebase"],
+  description : "The goal of this project was to build a replica of the Linkedin front-end. The site allows you to create an account, authenticate yourself and post messages. It has been entirely realized with Next.js, Redux and Firebase.",
+  technologies : ["Next.js","Redux", "Firebase"],
   githubLink : "https://github.com/RicciardiFlorent/linkedin-clone-react",
   websiteLink : "https://linkedin-clone-c8607.web.app/"
 }
 
 const project2 = {
   title : "MERN Social Network",
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
-  technologies : ["React","Redux", "MongoDB", "Express", "Node", "Tailwind CSS"],
+  description : "This site allows to share memories. Users can create an account, authenticate themselves, post photos, like and comment, filter searches for memories. It was developed with the MERN stack.",
+  technologies : ["React","Redux", "MongoDB", "Express", "Node", "Tailwind CSS", "JWT"],
   githubLink : "https://github.com/RicciardiFlorent/linkedin-clone-react",
   websiteLink : "https://linkedin-clone-c8607.web.app/"
 }
 
 const project3 = {
   title : "Incomm Front",
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
+  description : "This site was created for the company InEvent to allow young people to search for jobs. Companies can directly post job offers on the site and people can apply for them. The front-end was developed in Angular.",
   technologies : ["Angular","Typescript"],
   githubLink : "https://github.com/Luciegaire/inCom",
 }
 
 const project4 = {
   title : "Incomm Back",
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
-  technologies : ["Node","MySQL"],
+  description : "This API has been developed to manage the users, companies and job offers of the Incomm application that connects young people with companies. The backend was made with Node, Express and MySQL.",
+  technologies : ["Node","Express", "MySQL"],
   githubLink : "https://github.com/RicciardiFlorent/incomm-api-node",
 }
 
 const project5 = {
   title : "BeNFit",
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
+  description : "This project is a mobile application made in Kotlin. It allows a user to create his own workouts and share them with other users.",
   technologies : ["Kotlin","Firebase"],
   githubLink : "https://github.com/cedriccosson83/BeNFit",
 }
 
 const project6 = {
   title : "My Portfolio",
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
+  description : "This portfolio was entirely designed and created by me. It allows me to present myself and my background. It also gives an overview of my skills and my projects that I have done. This site was built with React , Tailwind CSS and GSAP for animations",
   technologies : ["React","TailwindCSS", "GSAP"],
-  githubLink : "https://github.com/cedriccosson83/BeNFit",
+  githubLink : "https://github.com/RicciardiFlorent/portfolio",
 }
 
 function Projects() {

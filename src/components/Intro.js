@@ -16,9 +16,7 @@ function Intro() {
         </h1>
         <div class="w-full sm:w-1/2 mb-12">
           <p class=" leading-relaxed text-gray-300">
-            Lorem ipsum dolor sit amet, elit. Assumenda aut commodi culpa
-            debitis dolores ducimus, ea eos inventore nostrum officia provident
-            voluptatem voluptates. Deleniti, error.
+          Inventive and determined, I constantly try to get out of the box and go where I am not expected. Passionate about technologies, I decided to become a Software Engineer in order to be closer to the innovations that will constitute the world of tomorrow.
           </p>
         </div>
         <a href="#contact" class="btn getTouch inline-block  font-bold hover:bg-red-500 hover:bg-opacity-10  px-6 py-4 border text-yellow-200 border-yellow-200 rounded">
