@@ -35,7 +35,7 @@ function App() {
       </div>
       <div className="hidden loader3 bg-gray-800 opacity-50 fixed left-2/3 sm:flex justify-center items-center w-1/3 h-full z-40">
       </div>
-im
+
       <Navbar />
       <Intro />
       <AboutMe />

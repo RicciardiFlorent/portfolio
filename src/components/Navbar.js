@@ -52,8 +52,8 @@ function Navbar() {
               >
                 Contact
               </a>
-              <a href="/src/cv.pdf"
-                 download
+              <a href="#"
+                 target="_blank"
                 className="text-yellow-200 border-2 border-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2 text-sm font-medium"
               >
                 Resume
@@ -156,7 +156,7 @@ function Navbar() {
                 Contacts
               </a>
 
-              <a href="/src/cv.pdf"
+              <a href="#"
                  download
                 className=" border-2 border-yellow-200 hover:bg-red-500 hover:bg-opacity-20  text-yellow-200 px-3 py-2  block text-base font-medium"
               >
