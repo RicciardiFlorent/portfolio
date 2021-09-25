@@ -2,8 +2,8 @@ import React from "react";
 function ItemProject(props) {
 
   return (
-    <div class="inline-block px-3 transition duration-500 ease-in-out transform hover:-translate-y-4" >
-      <div class=" w-72 h-96 max-w-xs overflow-hidden shadow-md bg-gray-800  bg-opacity-50   hover:shadow-xl  transition-shadow duration-300 ease-in-out rounded-br-xl rounded-tl-xl">
+    <div className="inline-block px-3 transition duration-500 ease-in-out transform hover:-translate-y-4" >
+      <div className=" w-72 h-96 max-w-xs overflow-hidden shadow-md bg-gray-800  bg-opacity-50   hover:shadow-xl  transition-shadow duration-300 ease-in-out rounded-br-xl rounded-tl-xl">
         <div className="flex justify-between items-center ">
           <svg
             xmlns="http://www.w3.org/2000/svg"

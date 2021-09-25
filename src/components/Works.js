@@ -1,4 +1,4 @@
-import {React ,useState, useEffect, useRef} from "react";
+import {React ,useState, useEffect} from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";import BoutonWorkMenu from "./BoutonWorkMenu";
 import Work from './Work';
@@ -62,8 +62,8 @@ function Works() {
   }, []);
 
   return (
-    <section id="works" class="py-10">
-      <div class="max-w-4xl mx-auto px-6 lg:px-0 ">
+    <section id="works" className="py-10">
+      <div className="max-w-4xl mx-auto px-6 lg:px-0 ">
         <div className="flex items-center">
           <p className="text-3xl text-red-500">03.</p>
           <p className="text-xl sm:text-4xl sm:w-1/2 ml-5 font-bold text-gray-100">Where I worked</p>

@@ -1,4 +1,4 @@
-import { React, useEffect, useRef } from "react";
+import { React, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 function Contact() {
@@ -23,8 +23,8 @@ function Contact() {
     );
   }, []);
   return (
-    <section id="contact" class="py-10">
-      <div class="max-w-xl mx-auto px-6 lg:px-0 ">
+    <section id="contact" className="py-10">
+      <div className="max-w-xl mx-auto px-6 lg:px-0 ">
         <div className="flex items-center ">
           <p className="text-3xl text-red-500">05.</p>
           <p className="text-xl sm:text-4xl sm:w-1/2 ml-5 font-bold text-gray-100">
@@ -42,7 +42,7 @@ function Contact() {
           </div>
           <a
             href="mailto: florentricciardi@gmail.com"
-            class="btn inline-block  font-bold hover:bg-red-500 hover:bg-opacity-10  px-6 py-4 border text-yellow-200 border-yellow-200 rounded"
+            className="btn inline-block  font-bold hover:bg-red-500 hover:bg-opacity-10  px-6 py-4 border text-yellow-200 border-yellow-200 rounded"
           >
             Contact Me!
           </a>

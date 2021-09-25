@@ -1,4 +1,4 @@
-import {React, useEffect, useState, useRef} from "react";
+import {React, useEffect} from "react";
 import { gsap } from "gsap";
 
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
@@ -14,8 +14,8 @@ import Works from "./components/Works";
 
 function App() {
 
-  let [loading, setLoading] = useState(true);
-  let [color, setColor] = useState("#FDE68A");
+  const loading = true;
+  const color = "#FDE68A";
   useEffect(() => {      
     gsap.fromTo('.loader1 ', {opacity: 1}, {opacity: 1, y:-1000, duration: 0.5, delay:1.6})
     gsap.fromTo('.loader2 ', {opacity: 1}, {opacity: 1, y:-1000, duration: 0.5, delay:1.8})
@@ -35,7 +35,7 @@ function App() {
       </div>
       <div className="hidden loader3 bg-gray-800 opacity-50 fixed left-2/3 sm:flex justify-center items-center w-1/3 h-full z-40">
       </div>
-
+im
       <Navbar />
       <Intro />
       <AboutMe />

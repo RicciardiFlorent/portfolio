@@ -155,6 +155,13 @@ function Navbar() {
               >
                 Contacts
               </a>
+
+              <a href="/src/cv.pdf"
+                 download
+                className=" border-2 border-yellow-200 hover:bg-red-500 hover:bg-opacity-20  text-yellow-200 px-3 py-2  block text-base font-medium"
+              >
+                Resume
+              </a>
           </div>
         </div>
       )}

@@ -1,4 +1,4 @@
-import {React , useEffect, useRef} from "react";
+import {React , useEffect} from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ItemProject from "./ItemProject";
@@ -70,8 +70,8 @@ function Projects() {
   }, []);
 
   return (
-    <section id="projects" class="py-10 gs_reveal gs_reveal_fromLeft">
-      <div class="max-w-4xl mx-auto px-6 lg:px-0 ">
+    <section id="projects" className="py-10 gs_reveal gs_reveal_fromLeft">
+      <div className="max-w-4xl mx-auto px-6 lg:px-0 ">
         <div className="flex items-center">
           <p className="text-3xl text-red-500">04.</p>
           <p className="text-xl sm:text-4xl sm:w-1/2 ml-5 font-bold text-gray-100">
@@ -79,18 +79,18 @@ function Projects() {
           </p>
         </div>
         <div
-        class="flex overflow-x-scroll pb-10 hide-scroll-bar"
+        className="flex overflow-x-scroll pb-10 hide-scroll-bar"
       >
         <div
-          class="flex flex-nowrap mt-10 sm:opacity-50 sm:hover:opacity-100 group   "
+          className="flex flex-nowrap mt-10 sm:opacity-50 sm:hover:opacity-100 group   "
         >
           <div className="hidden sm:block animate-pulse sm:group-hover:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40 text-red-500 font-bold text-5xl">
              <div className="flex ">
-             <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+             <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd" />
 </svg>
              You can scroll 
-             <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+             <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
 </svg>
              </div>
