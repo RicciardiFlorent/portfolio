@@ -1,0 +1,114 @@
+import {React , useEffect, useRef} from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ItemProject from "./ItemProject";
+
+const project1 = {
+  title : "Linkedin clone",
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis. Fusce non risus fringilla, efficitur neque eget, accumsan massa. Nulla et augue nec lorem imperdiet dignissim. Sed sed scelerisque libero. Nulla in lorem id quam elementum pulvinar. Proin finibus vel neque eu molestie.",
+  technologies : ["Next.js","Redux","Tailwind CSS", "Firebase"],
+  githubLink : "https://github.com/RicciardiFlorent/linkedin-clone-react",
+  websiteLink : "https://linkedin-clone-c8607.web.app/"
+}
+
+const project2 = {
+  title : "MERN Social Network",
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
+  technologies : ["React","Redux", "MongoDB", "Express", "Node", "Tailwind CSS"],
+  githubLink : "https://github.com/RicciardiFlorent/linkedin-clone-react",
+  websiteLink : "https://linkedin-clone-c8607.web.app/"
+}
+
+const project3 = {
+  title : "Incomm Front",
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
+  technologies : ["Angular","Typescript"],
+  githubLink : "https://github.com/Luciegaire/inCom",
+}
+
+const project4 = {
+  title : "Incomm Back",
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
+  technologies : ["Node","MySQL"],
+  githubLink : "https://github.com/RicciardiFlorent/incomm-api-node",
+}
+
+const project5 = {
+  title : "BeNFit",
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
+  technologies : ["Kotlin","Firebase"],
+  githubLink : "https://github.com/cedriccosson83/BeNFit",
+}
+
+const project6 = {
+  title : "My Portfolio",
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque id velit ut venenatis.",
+  technologies : ["React","TailwindCSS", "GSAP"],
+  githubLink : "https://github.com/cedriccosson83/BeNFit",
+}
+
+function Projects() {
+  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    gsap.fromTo(
+      "#projects",
+      {
+        opacity: 1,
+        x: -300
+      },
+      {
+        opacity: 1,
+        x: 0,
+        scrollTrigger: {
+          trigger: "#projects",
+          start:"top bottom",
+          end: "top center",
+          scrub: true
+        }
+      }
+    );
+  }, []);
+
+  return (
+    <section id="projects" class="py-10 gs_reveal gs_reveal_fromLeft">
+      <div class="max-w-4xl mx-auto px-6 lg:px-0 ">
+        <div className="flex items-center">
+          <p className="text-3xl text-red-500">04.</p>
+          <p className="text-xl sm:text-4xl sm:w-1/2 ml-5 font-bold text-gray-100">
+            Some Things I've Built
+          </p>
+        </div>
+        <div
+        class="flex overflow-x-scroll pb-10 hide-scroll-bar"
+      >
+        <div
+          class="flex flex-nowrap mt-10 sm:opacity-50 sm:hover:opacity-100 group   "
+        >
+          <div className="hidden sm:block animate-pulse sm:group-hover:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40 text-red-500 font-bold text-5xl">
+             <div className="flex ">
+             <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+</svg>
+             You can scroll 
+             <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+</svg>
+             </div>
+             
+          </div>
+            <ItemProject project={project1}/>
+            <ItemProject project={project2}/>
+            <ItemProject project={project6}/>
+
+            <ItemProject project={project5}/>
+            <ItemProject project={project3}/>
+            <ItemProject project={project4}/>
+
+        </div>
+      </div>
+      </div>
+    </section>
+  );
+}
+
+export default Projects;
