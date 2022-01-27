@@ -74,7 +74,7 @@ function Education() {
               >
                            
                 <p className="font-semibold leading-tight text-left  text-red-500 ">
-                  2018 - 2021
+                  Sept 2019 - Février 2020
                 </p>
                 <h3 className="font-bold text-lg text-left sm:text-right mb-1 text-yellow-200 ">ITMO University</h3>
 
@@ -89,7 +89,7 @@ function Education() {
               >
                 
                 <p className="font-semibold leading-tight text-left sm:text-right text-red-500 ">
-                  2018 - 2021
+                  2017 - 2018
                 </p>
                 <h3 className="font-bold text-lg mb-1 text-yellow-200 ">Faculté des Sciences de Luminy</h3>
                 <p className="leading-tight sm:text-justify text-gray-100">
@@ -122,7 +122,7 @@ function Education() {
               >
                            
                 <p className="font-semibold leading-tight text-left  text-red-500 ">
-                  2018 - 2021
+                  2015 - 2017
                 </p>
                 <h3 className="font-bold text-lg mb-1 text-left sm:text-right text-yellow-200 ">IUT Aix-Marseille</h3>
 

@@ -47,6 +47,13 @@ const project6 = {
   githubLink : "https://github.com/RicciardiFlorent/portfolio",
 }
 
+const projectcurrent = {
+  title : "Social Network app",
+  description : "This app allows users to connect with people by sharing publications, photos, videos, job offers... In addition, users can communicate through instant messaging, audio and video calls. Many other features are available offering the possibility to users to create a professional network.",
+  technologies : ["React","Redux", "Mongo DB", "Node JS", "Styled-Component", ],
+  websiteLink : "https://www.youtube.com/watch?v=L-ZZGYtCD9c"
+}
+
 function Projects() {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
@@ -96,6 +103,7 @@ function Projects() {
              </div>
              
           </div>
+            <ItemProject project={projectcurrent}/>
             <ItemProject project={project1}/>
             <ItemProject project={project2}/>
             <ItemProject project={project6}/>

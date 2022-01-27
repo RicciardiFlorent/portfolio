@@ -6,7 +6,7 @@ function Intro() {
   }, []);
 
   return (
-    <section  id="intro" className="py-20">
+    <section  id="intro" className="py-20 sm:h-screen">
       <div className="max-w-5xl mx-auto px-6 lg:px-0">
         <h4 className="test mb-3 text-yellow-200">Hi, my name is</h4>
         <h1 className=" mb-3 text-2xl sm:text-6xl font-black text-gray-200">Florent Ricciardi.</h1>

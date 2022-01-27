@@ -20,41 +20,41 @@ function Navbar() {
             <div className="ml-10 flex items-baseline space-x-4">
               <a
                 href="#aboutme"
-                className=" hover:bg-red-500 hover:bg-opacity-20  text-yellow-200 px-3 py-2  text-sm font-medium"
+                className=" hover:bg-red-500 hover:bg-opacity-20  text-yellow-200 px-3 py-2  text-base font-medium"
               >
                 About
               </a>
 
               <a
                 href="#education"
-                className="text-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2  text-sm font-medium"
+                className="text-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2  text-base font-medium"
               >
                 Education
               </a>
 
               <a
                 href="#works"
-                className="text-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2 text-sm font-medium"
+                className="text-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2 text-base font-medium"
               >
                 Works
               </a>
 
               <a
                 href="#projects"
-                className="text-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2  text-sm font-medium"
+                className="text-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2  text-base font-medium"
               >
                 Projects
               </a>
 
               <a
                 href="#contact"
-                className="text-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2 text-sm font-medium"
+                className="text-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2 text-base font-medium"
               >
                 Contact
               </a>
               <a href="https://drive.google.com/file/d/18tZfN038dEI3OHlhkuu3i5b08Oo7QAR7/view?usp=sharing"
                  target="_blank" rel="noreferrer"
-                className="text-yellow-200 border-2 border-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2 text-sm font-medium"
+                className="text-yellow-200 border-2 border-yellow-200 hover:bg-red-500 hover:bg-opacity-20 px-3 py-2 text-base font-medium"
               >
                 Resume
               </a> 
